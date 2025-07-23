@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <?- include('../partials/head') -?>
+
+  <body>
+    <?- // include('../partials/header') -?>
+    <?- // include('../partials/nav') -?>
+    <div class="container" style="padding: 100px 0">
+      <h1>
+        <?= message ?>
+      </h1>
+      <h2>
+        <?= error.status ?>
+      </h2>
+      <pre><?= error.stack ?></pre>
+    </div>
+    <?- // include('../partials/footer') -?>
+  </body>
+</html>
